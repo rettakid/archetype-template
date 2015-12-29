@@ -8,14 +8,14 @@
 4. 
 
 add
-'''
+```
 <archetype-descriptor name="basic">
   <requiredProperties>
     <requiredProperty key="${project-name}"/>
   </requiredProperties>
 ...
 </archetype-descriptor>
-'''
+```
 
 ##to generate project
 1. mvn archetype:generate -DarchetypeCatalog=local -DarchetypeGroupId=za.co.rettakid.template -DarchetypeArtifactId=archetype-template-archetype -DarchetypeVersion=1.0-SNAPSHOT
