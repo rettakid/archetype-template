@@ -3,7 +3,9 @@
 ##to generate archetype
 1. mvn archetype:create-from-project
 2. cd target\generated-sources\archetype
-3. add property to archetype.xml
+3. add property to archetype-metadata.xml
+4. add '${groupId}' to all local dependancies in all poms
+5. change to `<display-name>${project-name}</display-name>` to web.xml
 3. mvn clean install
 4. 
 
