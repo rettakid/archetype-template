@@ -1,4 +1,5 @@
 # meds-server-java
+<styling>https://help.github.com/articles/markdown-basics/</styling>
 
 ##to generate archetype
 1. mvn archetype:create-from-project
